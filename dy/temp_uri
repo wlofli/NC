@@ -1,0 +1,8 @@
+10.10.0.76:8080/dy/dy!add.do?userid=1&dyname=testname&content=content&finaltime=1420600758926&picture=joijoi
+	//添加DY
+10.10.0.76:8080/dy/dy!setresult.do?dyid=1&state=2
+	//设置DY结果
+http://10.10.0.76:8080/dy/userdy!judgedy.do?id=q&dyid=w&judge=1
+//userdy类judge方法
+
+10.10.0.76:8080/dy/duser!myjoindy.do?id=1&islatest=2&limit=2

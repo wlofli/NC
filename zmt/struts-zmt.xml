@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8" />
+	<package name="zmt_default" extends="eop_default" namespace="/zmt">
+		<action name="user" class="duserAction">
+			<result name="login">/zmt/addnews.jsp</result>
+		</action>
+		<action name="news" class="newsAction">
+			<result name="add">/zmt/welcome.jsp</result> 
+			<result name="turnAdd">/zmt/addnews.jsp</result>
+			<result name="list">/zmt/newslist.jsp</result>
+			<result name="turnNewsList">/zmt/newslist.jsp</result>
+			<result name="detail">/zmt/newsdetail.jsp</result>
+			<result name="turnCnt">/zmt/newsdetail.jsp</result>
+			<result name="turnIndex">/zmt/index.jsp</result>
+		</action>
+		<action name="ana" class="anaAction">
+			<result name="add">/zmt/welcome.jsp</result>
+			<result name="get">/zmt/anadetail.jsp</result>
+		</action>
+		
+	</package>
+
+
+
+</struts>

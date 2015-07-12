@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="true">
+	<bean id="DuserAction" class="com.kangtinghotel.core.action.backend.DuserAction" scope="prototype"></bean>
+	<bean id="HotelAction" class="com.kangtinghotel.core.action.backend.HotelAction" scope="prototype"></bean>
+	<bean id="PictureAction" class="com.kangtinghotel.core.action.backend.PictureAction" scope="protptype"></bean>
+	
+
+</beans>

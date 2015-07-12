@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="false">
+	<bean id="dyAction" class="com.enation.javashop.core.action.backend.DyAction"  scope="prototype" />
+	<bean id="duserAction" class="com.enation.javashop.core.action.backend.DuserAction"  scope="prototype" />
+	<bean id="userDyAction" class="com.enation.javashop.core.action.backend.UserDyAction" scope="prototype"></bean>
+	
+
+</beans>

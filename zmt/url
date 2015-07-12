@@ -1,0 +1,6 @@
+url: 
+10.10.0.79:8080/user!login.do?username=user&password=user
+
+http://10.10.0.79:8080/zmt/user!login.do?username=user&password=user&登陆=
+
+http://10.10.0.79:8080/zmt/news!list.do

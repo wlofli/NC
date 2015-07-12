@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+        <!-- ymy2015年1月7日08:58:25 -->
+<struts>
+	<package name="dy_default" extends="eop_default" namespace="/dy">
+	    <!-- duser -->
+		<action name="duser" class="duserAction">
+			<result name="suc">suc.jsp</result>
+			<result name="test">test.jsp</result>
+			<result name="userid">userid.jsp</result>		
+		</action>
+		
+		<!-- dy -->
+		<action name="dy" class="dyAction">
+			<result name="dyid">dyid.jsp</result>
+			<result name="userid">userid.jsp</result>
+			<result name="content">content.jsp</result>
+			<result name="choosey">choosey.jsp</result>
+			<result name="choosen">choosen.jsp</result>
+			<result name="dylist">dylist.jsp</result>
+		</action>
+		
+		<!-- version -->
+		<action name="version" class="versionAction">
+			<result name="v_id">v_id.jsp</result>
+			<result name="v_path">v_path.jsp</result>
+			<result name="v_up">v_up.jsp</result>
+		</action>
+			
+		
+		<action name="userdy" class="userDyAction">
+		
+		</action>
+		<action name="dy" class="dyAction">
+		
+		</action>
+	</package>
+	
+</struts>

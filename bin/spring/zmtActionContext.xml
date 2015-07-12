@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="true">
+	<bean id="newsAction" class="com.enation.core.action.newsAction" scope="prototype"></bean>
+	<bean id="duserAction" class="com.enation.core.action.duserAction" scope="prototype"></bean>
+	<bean id="anaAction" class="com.enation.core.action.anaAction" scope="prototype"></bean>
+	
+</beans>

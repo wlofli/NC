@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" 
+"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="false">
+
+
+	<bean id="dyManager" class="com.enation.javashop.core.service.impl.DyManager"  parent="baseSupport" />
+	<bean id="pictureManager" class="com.enation.javashop.core.service.impl.PictureManager" parent="baseSupport"/>
+	<bean id="duserManager" class="com.enation.javashop.core.service.impl.DuserManager" parent="baseSupport" />
+	<bean id="userDyManager" class="com.enation.javashop.core.service.impl.UserDyManager" parent="baseSupport"/>
+	<bean id="versionManager" class="com.enation.javashop.core.service.impl.VersionManager" parent="baseSupport"/>
+	
+	
+</beans>

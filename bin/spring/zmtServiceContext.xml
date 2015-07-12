@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="false">
+	<bean name="newsManager" class="com.enation.core.service.impl.NewsManager" parent="baseSupport"></bean>
+	<bean name="anaManager" class="com.enation.core.service.impl.AnaManager" parent="baseSupport"></bean>
+	<bean name="blockManager" class="com.enation.core.service.impl.BlockManager" parent="baseSupport"></bean>
+	<bean name="commentManager" class="com.enation.core.service.impl.CommentManager" parent="baseSupport"></bean>
+	<bean name="grialManager" class="com.enation.core.service.impl.GrialManager" parent="baseSupport"></bean>
+	<bean name="indivManager"    class="com.enation.core.service.impl.IndivManager"    parent="baseSupport"></bean>
+	<bean name="industryManager" class="com.enation.core.service.impl.IndustryManager" parent="baseSupport"></bean>
+	<bean name="powerManager" class="com.enation.core.service.impl.PowerManager" parent="baseSupport"></bean>
+	<bean name="pushManager" class="com.enation.core.service.impl.PushManager" parent="baseSupport"></bean>
+	<bean name="recordManager" class="com.enation.core.service.impl.RecordManager" parent="baseSupport"></bean>
+	<bean name="roleManager" class="com.enation.core.service.impl.RoleManager" parent="baseSupport"></bean>
+	<bean name="rolePowerManager" class="com.enation.core.service.impl.RolePowerManager" parent="baseSupport"></bean>
+	<bean name="sortManager" class="com.enation.core.service.impl.SortManager" parent="baseSupport"></bean>
+	<bean name="duserManager" class="com.enation.core.service.impl.DuserManager" parent="baseSupport"></bean>
+</beans>
